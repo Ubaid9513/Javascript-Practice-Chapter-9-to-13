@@ -55,21 +55,46 @@
 
 // Percentage
 
-var percentage = +prompt ("Enter your percentage");
-if (percentage >= 80 && percentage <= 100){
-    alert("A+");
-}else if (percentage >= 70 && percentage <= 80){
-    alert("A");
-}else if (percentage >= 60 && percentage <= 70){
-    alert("B");
-}else if (percentage >= 50 && percentage <= 50){
-    alert("c");
-}else if (percentage >= 40 && percentage <= 50){
-    alert("D");
-}else if (percentage >= 33 && percentage <= 40){
-    alert("E");
-}else if (percentage >= 0 && percentage <= 33){
-    alert("F");
-}else {
-    alert("You did not write correct percentage")
-}
+// var percentage = +prompt ("Enter your percentage");
+// if (percentage >= 80 && percentage <= 100){
+//     alert("A+");
+// }else if (percentage >= 70 && percentage <= 80){
+//     alert("A");
+// }else if (percentage >= 60 && percentage <= 70){
+//     alert("B");
+// }else if (percentage >= 50 && percentage <= 50){
+//     alert("c");
+// }else if (percentage >= 40 && percentage <= 50){
+//     alert("D");
+// }else if (percentage >= 33 && percentage <= 40){
+//     alert("E");
+// }else if (percentage >= 0 && percentage <= 33){
+//     alert("F");
+// }else {
+//     alert("You did not write correct percentage")
+// }
+
+
+// var city = prompt("Enter City")
+// if (city === "karachi"){
+//     alert("Welcome to city of lights")
+// }else if (city === "Lahore"){
+//     alert("Welcome to city of lights")
+// }else if (city === "Islamabad"){
+//     alert("Welcome to city of lights")
+// }else if (city === "Hyderabad"){
+//     alert("Welcome to city of lights")
+// }else {
+//     alert("Enter city only")
+// }
+
+// var _gender = prompt("Enter your Gender")
+// if(_gender === "male"){
+//  alert("Good morning Sir")
+// }else if(_gender === "female"){
+//     alert("Good morning Ma'am")
+// }else{
+//     alert("Enter only Gender")
+// }
+
+
