@@ -40,14 +40,36 @@
 //     alert("You are not allowed")
 // }
 
-var weight = +prompt ("Enter your weight", "your weight is ");
-var time = prompt ("Enter your time", "your time is ");
-var $age = prompt ("Enter your age", "your age is ");
-var $gender = prompt ("Enter your gender", "your gender is ");
+// var weight = +prompt ("Enter your weight", "your weight is ");
+// var time = prompt ("Enter your time", "your time is ");
+// var $age = prompt ("Enter your age", "your age is ");
+// var $gender = prompt ("Enter your gender", "your gender is ");
 
 
-if (weight > 300 && time < 6 && $age > 17 && $gender === "male") {
-    alert("Come to our tryout");
-}else{
-    alert("Come to our cookout!");
+// if (weight > 300 && time < 6 && $age > 17 && $gender === "male") {
+//     alert("Come to our tryout");
+// }else{
+//     alert("Come to our cookout!");
+// }
+
+
+// Percentage
+
+var percentage = +prompt ("Enter your percentage");
+if (percentage >= 80 && percentage <= 100){
+    alert("A+");
+}else if (percentage >= 70 && percentage <= 80){
+    alert("A");
+}else if (percentage >= 60 && percentage <= 70){
+    alert("B");
+}else if (percentage >= 50 && percentage <= 50){
+    alert("c");
+}else if (percentage >= 40 && percentage <= 50){
+    alert("D");
+}else if (percentage >= 33 && percentage <= 40){
+    alert("E");
+}else if (percentage >= 0 && percentage <= 33){
+    alert("F");
+}else {
+    alert("You did not write correct percentage")
 }
